@@ -1,0 +1,13 @@
+ul{
+    list-style: none;
+}
+li{
+    margin: 20px;
+}
+li label{
+    width: 70px;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+}
