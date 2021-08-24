@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/CourseRegister.css';
+import '../css/CourseRegister.css';
 
 const CourseRegister = () => (
 <div>

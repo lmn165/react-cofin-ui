@@ -4,7 +4,7 @@ ul{
 li{
     margin: 20px;
 }
-li label{
+li label.login{
     width: 70px;
     float: left;
     font-size: 14px;

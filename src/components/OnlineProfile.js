@@ -1,5 +1,5 @@
 import React from 'react';
-import img from './img/pf.png';
+import img from '../imgs/pf.png';
 
 const OnlineProfile = () => (
 <div>

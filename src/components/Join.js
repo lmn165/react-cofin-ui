@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/Join.css';
+import '../css/Join.css'
 const smallStyle = {color:'red'};
 
 const Join = () => (
