@@ -18,7 +18,7 @@ const NavigationForJavaScript = () => (
         <NavItem><Link to='/symbol'>symbol</Link></NavItem>
     </NavList>
 </Nav1>
-<Nav2>
+<Nav1>
     <NavList>
         <NavItem><Link to='/class'>class</Link></NavItem>
         <NavItem><Link to='/promise'>promise</Link></NavItem>
@@ -33,7 +33,13 @@ const NavigationForJavaScript = () => (
         <NavItem><Link to='/es2020'>es2020</Link></NavItem>
         <NavItem><Link to='/typescript'>typescript</Link></NavItem>
     </NavList>
+</Nav1>
+<Nav2>
+    <NavList>
+        <NavItem><Link to='cofin-map'>cofin-map</Link></NavItem>
+    </NavList>
 </Nav2>
+
 </>
 )
 

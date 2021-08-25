@@ -1,4 +1,5 @@
 import React from 'react'
+import styled from 'styled-components'
 
 var man = {} // es5
 
@@ -28,9 +29,14 @@ const Basic = () => {
     }
 
     return(<>
-    <button onClick={dynamicType}>dynamicType</button>
-    <button onClick={jsonSample}>JSON</button>
+    <BasicButton onClick={dynamicType}>dynamicType</BasicButton>
+    <BasicButton onClick={jsonSample}>JSON</BasicButton>
     </>)
 }
 
 export default Basic
+
+const BasicButton = styled.button`
+    display: block;
+    margin: 10px 0;
+`

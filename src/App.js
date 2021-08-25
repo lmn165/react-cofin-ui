@@ -35,6 +35,8 @@ import Es2019 from './modern-javascript/chap-21-es2019/Es2019'
 import Es2020 from './modern-javascript/chap-22-es2020/Es2020'
 import Typescript from './modern-javascript/chap-23-typescript/Typescript'
 
+import ConfinMap from './components/CofinMap'
+
 const App = () => (
   <>
   <Layout>
@@ -74,6 +76,8 @@ const App = () => (
   <Route exact path='/es2019' component = { Es2019 }/>
   <Route exact path='/es2020' component = { Es2020 }/>
   <Route exact path='/typescript' component = { Typescript }/>
+
+  <Route exact path='/cofin-map' component = { ConfinMap }/>
   </Switch></>
 );
 
