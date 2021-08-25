@@ -1,0 +1,1 @@
+#### Type Script 는 strong-typed language 이다.
