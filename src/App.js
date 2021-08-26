@@ -34,6 +34,7 @@ import Es2018 from './modern-javascript/chap-20-es2018/Es2018'
 import Es2019 from './modern-javascript/chap-21-es2019/Es2019'
 import Es2020 from './modern-javascript/chap-22-es2020/Es2020'
 import Typescript from './modern-javascript/chap-23-typescript/Typescript'
+import HomePage from "./pages/HomePage";
 
 import ConfinMap from './components/CofinMap'
 
@@ -45,7 +46,7 @@ const App = () => (
   <NavigationForJavaScript/>
   </Layout>
   <Switch>
-  <Route exact path='/' component = {Home}/>
+  <Route exact path='/' component = {HomePage}/>
   <Redirect from='/home' to = {'/'}/>
   <Route exact path='/course-register' component = {CourseRegister}/>
   <Route exact path='/join' component = {Join}/>
