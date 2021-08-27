@@ -1,42 +1,13 @@
 import React from 'react'
 import { Route, Redirect, Switch } from 'react-router-dom'
 // import './App.css';
-import Home from './components/Home'
-import CourseRegister from './components/CourseRegister'
-import Join from './components/Join'
-import Login from './components/Login'
-import OnlineProfile from'./components/OnlineProfile'
-import SchoolStatus from './components/SchoolStatus'
-import Navigation from './Layout/Navigation'
+import { CourseRegister, Join, Login, OnlineProfile, SchoolStatus, NavigationForJavaScript, CofinMap } from 'components/index'
+import { Header, Navigation } from 'Layout/index'
 import styled from 'styled-components'
-import Header from './Layout/Header'
-import NavigationForJavaScript from './components/NavigationForJavaScript'
-import Basic from './modern-javascript/chap-01-basic/Basic'
-import ArrowFunction from './modern-javascript/chap-02-arrow-function/ArrowFunction'
-import Arguments from './modern-javascript/chap-03-arguments/Arguments'
-import TemplateLiteral from './modern-javascript/chap-04-template-literal/TemplateLiteral'
-import LiteralMethod from './modern-javascript/chap-05-literal-method/LiteralMethod'
-import Destructuring from './modern-javascript/chap-06-destructuring/Destructuring'
-import Loop from './modern-javascript/chap-07-loop/Loop'
-import ArrayMethod from './modern-javascript/chap-08-array-method/ArrayMethod'
-import SpreadOperatorRestParameter from './modern-javascript/chap-09-spread-operator-rest-parameter/SpreadOperatorRestParameter'
-import ObjectLiteral from './modern-javascript/chap-10-object-literal/ObjectLiteral'
-import Symbol from './modern-javascript/chap-11-symbol/Symbol'
-import Class from './modern-javascript/chap-12-class/Class'
-import Promise from './modern-javascript/chap-13-promise/Promise'
-import Generator from './modern-javascript/chap-14-generator/Generator'
-import Proxy from './modern-javascript/chap-15-proxy/Proxy'
-import SetMap from './modern-javascript/chap-16-set-map/SetMap'
-import Array from './modern-javascript/chap-17-array/Array'
-import Es2017 from './modern-javascript/chap-18-es2017/Es2017'
-import AsyncAwait from './modern-javascript/chap-19-async-await/AsyncAwait'
-import Es2018 from './modern-javascript/chap-20-es2018/Es2018'
-import Es2019 from './modern-javascript/chap-21-es2019/Es2019'
-import Es2020 from './modern-javascript/chap-22-es2020/Es2020'
-import Typescript from './modern-javascript/chap-23-typescript/Typescript'
-import HomePage from "./pages/HomePage";
-
-import ConfinMap from './components/CofinMap'
+import { Basic, ArrowFunction, Arguments, TemplateLiteral, LiteralMethod, Destructuring, Loop, 
+  ArrayMethod, SpreadOperatorRestParameter, ObjectLiteral, Symbol, Class, Promise, Generator,
+  Proxy, SetMap, Array, Es2017, AsyncAwait, Es2018, Es2019, Es2020, Typescript } from 'modern-javascript/index'
+import { HomePage } from "pages/index";
 
 const App = () => (
   <>
@@ -78,7 +49,7 @@ const App = () => (
   <Route exact path='/es2020' component = { Es2020 }/>
   <Route exact path='/typescript' component = { Typescript }/>
 
-  <Route exact path='/cofin-map' component = { ConfinMap }/>
+  <Route exact path='/cofin-map' component = { CofinMap }/>
   </Switch></>
 );
 
