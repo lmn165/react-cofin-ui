@@ -1,3 +1,10 @@
+# Introduction
+
+This project was written for the studying Reactjs.
+
+You can find a summary of javascript in '/src/modern-javascript/'.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
