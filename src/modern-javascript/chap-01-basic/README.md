@@ -81,7 +81,7 @@ const car = {}              // Object literal (오브젝트 리터럴)
     - 코드 디버깅이 더 쉽다.
 
 ### var, let, const 사용 규칙
-#### 마티아스 바인스
+#### 마티아스 바인스(Mathias Bynes)
 1. 기본적으로 const를 사용
 2. 재할당이 필요한 경우에만 let 사용
 3. var는 ES6 에서 절대 사용하지 않음!
